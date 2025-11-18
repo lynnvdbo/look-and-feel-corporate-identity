@@ -440,7 +440,7 @@ p {
 
 h2 {
     font-size: var(--font-size-heading-xs);
-    margin: 30px 50px 25px 50px;
+    margin: 20px 50px 25px 50px;
 
       @media (min-width: 810px) {
         margin-left: 110px;
@@ -538,3 +538,117 @@ h2 {
     color: var(--primary-color);
     text-decoration: underline;
 }
+
+.laatste-nieuws {
+
+          @media (min-width: 810px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           width: 100%;
+           max-width: 100%;
+    }            
+}
+
+
+.laatste-nieuws-kop {
+    font-size: var(--font-size-heading-xs);
+    text-align: center;
+    margin-top: 40px;
+
+             @media (min-width: 1149px) {
+                margin-right: 240px;
+    }
+}
+
+
+.sub-logo-links {
+    margin-left: 20px;
+    margin-bottom: 8px;
+
+              @media (min-width: 1149px) {
+                margin-left: 300px;
+    }
+}
+
+.sub-logo-rechts {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-bottom: 8px;
+
+            @media (min-width: 1149px) {
+                margin-right: 260px;
+    }
+}
+
+article {
+    border: 6px solid var(--primary-color);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;  
+    margin-bottom: 20px;
+
+          @media (min-width: 1149px) {
+              /* margin-right: 260px;
+              margin-left: 40px; */
+    }  
+}
+
+article p {
+    display: inline-block;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 50px;
+
+          @media (min-width: 810px) {
+            display: block;
+            /* max-width: 80%; */
+            margin: 50px; 
+    }   
+
+          @media (min-width: 1149px) {
+            display: block;
+            max-width: 80%;  
+            margin: 50px;   
+            text-align: center;  
+    }    
+}
+
+.button-leesmeer {
+    color: var(--primary-lighter-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: var(--button-size);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 75px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+
+              @media (min-width: 810x) {
+                margin-left: 99px;      
+    } 
+
+          @media (min-width: 1149x) {
+    }     
+
+} 
+
+
+.button-leesmeer:hover {
+    background-color: var(--primary-lighter-color);
+    color: var(--primary-color);
+}   
+
+
+
+.section-titel {
+    text-align: center;
+
+                 @media (min-width: 1149px) {
+                margin-right: 190px;
+    }
+}
+
