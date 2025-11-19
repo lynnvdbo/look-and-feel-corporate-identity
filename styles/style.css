@@ -642,8 +642,6 @@ article p {
     color: var(--primary-color);
 }   
 
-
-
 .section-titel {
     text-align: center;
 
@@ -652,7 +650,86 @@ article p {
     }
 }
 
+.logo-slider {
+    overflow: hidden;
+}
+
+.overlfow {
+    display: flex;
+    overflow: hidden;
+}
+
 .logo-item img {
     filter: grayscale(1);
     opacity: 0.70;
+}
+
+.logos-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    animation: logoLoop 40s linear infinite;
+}
+
+.logo-item {
+    margin-left: 50px;
+}
+
+@keyframes logoLoop {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.info-footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    height: 400px;
+    margin-top: 30px;
+}
+
+.info-footer img {
+   margin-top: 20px;
+   margin-left: 45px;
+   padding-top: 10px;
+}
+
+.info-footer h3 {
+    font-size: var(--font-size-s);
+    margin-left: 50px;
+}
+
+.info-footer ul li {
+    font-size: var(--font-size-xs);
+    margin-left: 10px;
+    list-style: none;
+    margin-bottom: 6.5px;
+}
+
+.info-footer a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.info-footer a:hover {
+    color: var(--primary-lighter-color);
+    text-decoration: underline;
+}
+
+.link-mail {
+    color:var(--white-color);
+    font-size: var(--font-size-xs);
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.link-mail:hover {
+    color: var(--primary-lighter-color);
+    font-size: var(--font-size-xs);
+    margin-left: 50px;
+    text-decoration: underline;
 }
