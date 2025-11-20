@@ -255,22 +255,20 @@ span:nth-child(3) {
 }
 
 
+h1 {
+    font-size: var(--font-size-heading-xs);
+    padding: 1rem 0rem 1rem 3rem; /* top right bottom left */
+}
 
 
+.label-ad {
+    margin: 0rem 3rem 1.8rem 3rem; /* top right bottom left */
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.Submit-ad {
+    margin-left: 3rem;
+}
 
 
 .info-footer {
