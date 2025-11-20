@@ -6,6 +6,7 @@ body {
     line-height: var(--line-height-text);
 }
 
+
 .main-nav {
     background-color: var(--primary-color);
     height: 35px;
@@ -14,7 +15,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
 
 .main-nav a {
     color: white;
@@ -31,7 +31,6 @@ body {
     display: flex;
     margin-left: 15px;
 }
-
 
 .nav-rechts {
     display: flex;
@@ -57,7 +56,6 @@ body {
 *::before {
     box-sizing: border-box;
 }
-
 
 .ham-menu {
     width: 100%;
@@ -243,7 +241,6 @@ span:nth-child(3) {
         object-fit: cover;
     }
 }
-
 
 .overlay {
   position: absolute;
