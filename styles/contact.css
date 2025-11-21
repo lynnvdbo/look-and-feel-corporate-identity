@@ -258,13 +258,23 @@ h1 {
     padding: 1rem 0rem 1rem 3rem; /* top right bottom left */
 
         @media (min-width: 810px) {
-        margin-left: 2rem;
+         margin-left: 2rem;
+    }
+
+    @media (min-width: 1300px) {
+        margin-left: 19rem;
+        font-size: var(--font-size-heading-s);
     }
 }
 
 /* alle formulier labels*/
 .label-ad {
     padding: 0rem 3rem 1.8rem 3rem; /* top right bottom left */
+
+        @media (min-width: 1300px) {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
 }
 
 .formulier {
@@ -276,15 +286,22 @@ h1 {
         margin-right: 2rem;
         margin-left: 2rem;
     }
+
+    @media (min-width: 1300px) {
+       font-size: var(--font-size-m);
+    }
 }
 
+/* .label-ad {
+    width: 50%;
+} */
 .voornaam {
     grid-column: 1/2;
     grid-row: 1/3;
 }
 
 .achternaam {
-    grid-column: 2/-1;
+    grid-column: 2/4;
     grid-row: 1/3;
 }
 
@@ -313,6 +330,10 @@ h1 {
         margin-left: 5rem;
         margin-top: 0.5rem;
     }  
+
+        @media (min-width: 1300px) {
+        margin-left: 22rem;
+    }
 }
 
 /* footer */
