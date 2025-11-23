@@ -327,12 +327,11 @@ h1 {
     margin-left: 3rem;
 
     @media (min-width: 810px) {
-        margin-left: 5rem;
-        margin-top: 0.5rem;
-    }  
+            width: 40%;
+    }
 
-        @media (min-width: 1300px) {
-        margin-left: 22rem;
+    @media (min-width: 1300px) {
+            width: 20%;
     }
 }
 
