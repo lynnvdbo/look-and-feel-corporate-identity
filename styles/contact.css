@@ -252,7 +252,7 @@ span:nth-child(3) {
   color: var(--white-color);
 }
 
-
+/* contact ons */
 h1 {
     font-size: var(--font-size-heading-xs);
     padding: 1rem 0rem 1rem 3rem; 
@@ -267,7 +267,7 @@ h1 {
     }
 }
 
-
+/* alle labels formulier */
 .label-ad {
     padding: 0rem 3rem 1.8rem 3rem; 
 
@@ -277,7 +277,7 @@ h1 {
     }
 }
 
-
+/* verzend knop */
 .Submit-ad {
     margin-left: 3rem;
 
