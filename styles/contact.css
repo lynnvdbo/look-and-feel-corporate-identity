@@ -277,20 +277,6 @@ h1 {
     }
 }
 
-/* verzend knop */
-.Submit-ad {
-    margin-left: 3rem;
-
-    @media (min-width: 810px) {
-        margin-top: 0.5rem;
-    }  
-
-        @media (min-width: 1300px) {
-        margin-left: 20rem;
-    }
-}
-
-
 .contact-formulier {
 
     @media (min-width: 810px) {
@@ -310,6 +296,20 @@ h1 {
         @media (min-width: 810px) {
             grid-column: 1/-1;
     }   
+}
+
+
+/* verzend knop */
+.Submit-ad {
+    margin-left: 3rem;
+
+    @media (min-width: 810px) {
+        margin-top: 0.5rem;
+    }  
+
+        @media (min-width: 1300px) {
+        margin-left: 20rem;
+    }
 }
 
 .verzend-knop {
