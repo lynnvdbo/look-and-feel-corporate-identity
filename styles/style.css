@@ -72,13 +72,38 @@ body {
 }
 
 .logo img {
+    display: none;
     width: 200px;
+
+    @media (min-width: 810px) {
+                width: 270px;
+                display: flex;
+
+    }
 
         @media (min-width: 1149px) {
                 width: 270px;
+                display: flex;
 
     }
 }
+
+.sub-logo {
+    margin-left: -200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    @media (min-width: 810px) {
+                width: 270px;
+                display: none;
+    }
+    
+        @media (min-width: 1149px) {
+            width: 270px;
+            display: none;
+    }
+}
+
 
 
 /* hamburger menu van yt filmpje */
