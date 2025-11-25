@@ -304,12 +304,16 @@ h1 {
 }
 
 .beschrijving {
+
+    .textarea {
+        resize: none;
+    }
+
         @media (min-width: 810px) {
             grid-column: 1/-1;
+            
     }   
 }
-
-
 
 
 /* verzend knop */
