@@ -7,7 +7,7 @@ body {
 }
 
 
-
+/* eerste header */
 .main-nav {
     background-color: var(--primary-color);
     height: 35px;
@@ -60,7 +60,7 @@ body {
     box-sizing: border-box;
 }
 
-
+/* tweede header */
 .ham-menu {
     width: 100%;
     background-color: var(--white-color);
@@ -261,7 +261,7 @@ h1 {
     }
 }
 
-
+/* header foto */
 .banner {
   position: relative;
   width: 100%;;
@@ -461,6 +461,7 @@ p {
     background-color:var(--primary-lighter-color);
     color: var(--primary-color);
 }
+
 
 h2 {
     font-size: var(--font-size-heading-xs);
