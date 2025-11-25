@@ -216,11 +216,11 @@ body {
 
 .menu-toggle:checked ~ .burger-menu {
     display: flex;
-    top: 12%;
+    top: 10%;
 
 
             @media (min-width: 810px) {
-            top: 10%
+            top: 13%
     }
 }
 
@@ -594,8 +594,6 @@ h2 {
 }
 
 
-
-
 .sub-logo-rechts {
         display: block;
         margin-left: auto;
@@ -615,7 +613,6 @@ article {
     border: 6px solid var(--primary-color);
     display: grid;
     border-radius: 25px;
-    /* margin: 0 20px 20px; */
 }
 
 article p {
@@ -626,13 +623,11 @@ article p {
 
           @media (min-width: 810px) {
             display: block;
-            /* max-width: 80%; */
             margin: 50px; 
     }   
 
           @media (min-width: 1149px) {
             display: block;
-            max-width: 80%;  
             text-align: center;  
     }    
 }
