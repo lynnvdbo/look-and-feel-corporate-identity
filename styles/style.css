@@ -564,6 +564,8 @@ h2 {
     text-decoration: underline;
 }
 
+
+/* nieuws artikelen */
 .laatste-nieuws {
     margin: 0 30px;
     display: grid;
@@ -660,6 +662,8 @@ article p {
     color: var(--primary-color);
 }   
 
+
+/* Deelnemende hogescholen */
 .section-titel {
     text-align: center;
 
@@ -703,6 +707,7 @@ article p {
 }
 
 
+/* footer */
 .info-footer {
     background-color: var(--primary-color);
     color: var(--white-color);
