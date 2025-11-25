@@ -278,12 +278,8 @@ h1 {
     font-size: var(--font-size-heading-xs);
     padding: 1rem 0rem 1rem 3rem; 
 
-        @media (min-width: 810px) {
-         margin-left: 2rem;
-    }
-
     @media (min-width: 1300px) {
-        margin-left: 19rem;
+        margin-left: 220px;
         font-size: var(--font-size-heading-s);
     }
 }
@@ -291,11 +287,6 @@ h1 {
 /* alle labels formulier */
 .label-ad {
     padding: 0rem 3rem 1.8rem 3rem; 
-
-        @media (min-width: 1300px) {
-        padding-left: 20rem;
-        padding-right: 20rem;
-    }
 }
 
 .contact-formulier {
@@ -304,12 +295,11 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:  1fr 1fr 1fr;
-        margin-right: 2rem;
-        margin-left: 2rem;
     }
 
     @media (min-width: 1300px) {
        font-size: var(--font-size-m);
+       margin: 0 220px;
     }
 }
 
@@ -320,6 +310,8 @@ h1 {
 }
 
 
+
+
 /* verzend knop */
 .Submit-ad {
     margin-left: 3rem;
@@ -327,21 +319,11 @@ h1 {
     @media (min-width: 810px) {
         margin-top: 0.5rem;
     }  
-
-        @media (min-width: 1300px) {
-        margin-left: 20rem;
-    }
 }
 
+
 .verzend-knop {
-
-    @media (min-width: 810px) {
-            width: 40%;
-    }
-
-    @media (min-width: 1300px) {
-            width: 20%;
-    }
+    justify-self: start;
 }
 
 
