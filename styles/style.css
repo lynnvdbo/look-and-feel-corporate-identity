@@ -34,7 +34,6 @@ body {
     margin-left: 15px;
 }
 
-
 .nav-rechts {
     display: flex;
     gap: 15px;
@@ -231,6 +230,14 @@ body {
             display: none;
     }
 }
+
+.svg {
+
+    @media (min-width: 1149px) {
+            display: none;
+    }
+}
+
 
 .menu-toggle:checked + .menu-btn
 span:nth-child(1) {
@@ -504,6 +511,7 @@ h2 {
         margin-left: 210px;
     }  
 }
+
 
 .datums p {
     margin-bottom: 0px;
