@@ -384,10 +384,12 @@ summary {
     align-items: center;
     padding: 15px 20px;
     font-size: var(--font-size-m);
+
     cursor: pointer;
 
     @media (min-width: 810px) {
         cursor: default;
+        font-weight: var(--font-weight-heading);
     } 
 }
 
