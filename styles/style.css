@@ -332,19 +332,17 @@ p {
 
           @media (min-width: 1100px) {
              margin: 40px 230px 40px 230px;
-             font-size: 18px;
+             font-size: var(--font-size-m);
     }
 
             @media (min-width: 1350px) {
              margin: 40px 260px 40px 260px;
-             font-size: 17px;
+             font-size: var(--font-size-m);
     }
 
             @media (min-width: 1500px) {
-             /* margin: 40px 300px 40px 500px; */
              margin-left: 360px;
-             margin-right: 500px;
-             font-size: 17px;
+             font-size: var(--font-size-m);
     }
 }
  
