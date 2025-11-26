@@ -695,8 +695,13 @@ article p {
     animation: logoLoop 40s linear infinite;
 }
 
+
 .logo-item {
     margin-left: 50px;
+}
+
+.logo-item:hover {
+    scale: 1.1;
 }
 
 @keyframes logoLoop {
