@@ -351,7 +351,7 @@ h1 {
     margin: 18px 0 5px 13px;
 
      @media (min-width: 810px) {
-            margin: 18px 0 0 33px;
+            margin: 18px 0 0 14px;
     }
 
     @media (min-width: 1149px) {
