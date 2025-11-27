@@ -189,6 +189,14 @@ body {
     display: none;
 }
 
+
+.svg {
+
+    @media (min-width: 1149px) {
+            display: none;
+    }
+}
+
 .menu-btn {
     display: none;
     flex-direction: column;
